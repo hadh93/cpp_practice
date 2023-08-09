@@ -3,6 +3,11 @@
 using std::cout;
 
 int main(){
-    cout << "Hello World!";
+    int A, B;
+    cin >> A >> B;
+    cout << A+B;
     return 0;
-}
+}   int C, D;
+    cin >> C >> D;
+    cout << C+D;
+    return 0;
