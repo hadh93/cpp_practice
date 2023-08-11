@@ -7,6 +7,11 @@
 using namespace std;
 
 int main(){
-    cout << "hi" << endl;
+    int t, a, b;
+    cin >> t;
+    for (int i = 1; i < t+1; i++){
+        cin >> a >> b;
+        cout << "Case #" << i << ": " << a+b << endl;
+    }
     return 0;
 }
