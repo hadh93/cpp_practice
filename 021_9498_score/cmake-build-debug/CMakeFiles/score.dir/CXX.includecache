@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/hoond/CLionProjects/cpp_practice/021_9498_score/main.cpp
+main.h
+C:/Users/hoond/CLionProjects/cpp_practice/021_9498_score/main.h
+iostream
+-
+
+C:/Users/hoond/CLionProjects/cpp_practice/021_9498_score/main.h
+

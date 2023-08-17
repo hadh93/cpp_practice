@@ -1,0 +1,3 @@
+C:/Users/hoond/CLionProjects/cpp_practice/016_2530_ai_clock/cmake-build-debug/CMakeFiles/ai_clock.dir
+C:/Users/hoond/CLionProjects/cpp_practice/016_2530_ai_clock/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/hoond/CLionProjects/cpp_practice/016_2530_ai_clock/cmake-build-debug/CMakeFiles/rebuild_cache.dir

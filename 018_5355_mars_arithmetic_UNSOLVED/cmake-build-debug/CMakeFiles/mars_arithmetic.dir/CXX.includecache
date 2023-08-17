@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/hoond/CLionProjects/cpp_practice/017_5355_mars_arithmetic/main.cpp
+main.h
+C:/Users/hoond/CLionProjects/cpp_practice/017_5355_mars_arithmetic/main.h
+iostream
+-
+iomanip
+-
+
+C:/Users/hoond/CLionProjects/cpp_practice/017_5355_mars_arithmetic/main.h
+

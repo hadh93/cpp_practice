@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/hoond/CLionProjects/cpp_practice/016_2530_ai_clock/main.cpp
+main.h
+C:/Users/hoond/CLionProjects/cpp_practice/016_2530_ai_clock/main.h
+iostream
+-
+
+C:/Users/hoond/CLionProjects/cpp_practice/016_2530_ai_clock/main.h
+

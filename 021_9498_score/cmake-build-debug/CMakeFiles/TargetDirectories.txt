@@ -1,0 +1,3 @@
+C:/Users/hoond/CLionProjects/cpp_practice/021_9498_score/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/hoond/CLionProjects/cpp_practice/021_9498_score/cmake-build-debug/CMakeFiles/score.dir
+C:/Users/hoond/CLionProjects/cpp_practice/021_9498_score/cmake-build-debug/CMakeFiles/edit_cache.dir
