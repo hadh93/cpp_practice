@@ -118,6 +118,30 @@ score\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\score.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\score.dir\build
 .PHONY : score\fast
 
+C_\Users\hoond\CLionProjects\cpp_practice\022_10817_three_numbers\main.obj: C_\Users\hoond\CLionProjects\cpp_practice\022_10817_three_numbers\main.cpp.obj
+.PHONY : C_\Users\hoond\CLionProjects\cpp_practice\022_10817_three_numbers\main.obj
+
+# target to build an object file
+C_\Users\hoond\CLionProjects\cpp_practice\022_10817_three_numbers\main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\score.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\score.dir\C_\Users\hoond\CLionProjects\cpp_practice\022_10817_three_numbers\main.cpp.obj
+.PHONY : C_\Users\hoond\CLionProjects\cpp_practice\022_10817_three_numbers\main.cpp.obj
+
+C_\Users\hoond\CLionProjects\cpp_practice\022_10817_three_numbers\main.i: C_\Users\hoond\CLionProjects\cpp_practice\022_10817_three_numbers\main.cpp.i
+.PHONY : C_\Users\hoond\CLionProjects\cpp_practice\022_10817_three_numbers\main.i
+
+# target to preprocess a source file
+C_\Users\hoond\CLionProjects\cpp_practice\022_10817_three_numbers\main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\score.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\score.dir\C_\Users\hoond\CLionProjects\cpp_practice\022_10817_three_numbers\main.cpp.i
+.PHONY : C_\Users\hoond\CLionProjects\cpp_practice\022_10817_three_numbers\main.cpp.i
+
+C_\Users\hoond\CLionProjects\cpp_practice\022_10817_three_numbers\main.s: C_\Users\hoond\CLionProjects\cpp_practice\022_10817_three_numbers\main.cpp.s
+.PHONY : C_\Users\hoond\CLionProjects\cpp_practice\022_10817_three_numbers\main.s
+
+# target to generate assembly for a file
+C_\Users\hoond\CLionProjects\cpp_practice\022_10817_three_numbers\main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\score.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\score.dir\C_\Users\hoond\CLionProjects\cpp_practice\022_10817_three_numbers\main.cpp.s
+.PHONY : C_\Users\hoond\CLionProjects\cpp_practice\022_10817_three_numbers\main.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -151,6 +175,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... score
+	@echo ... C_/Users/hoond/CLionProjects/cpp_practice/022_10817_three_numbers/main.obj
+	@echo ... C_/Users/hoond/CLionProjects/cpp_practice/022_10817_three_numbers/main.i
+	@echo ... C_/Users/hoond/CLionProjects/cpp_practice/022_10817_three_numbers/main.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

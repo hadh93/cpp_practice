@@ -88,6 +88,12 @@
 		<Unit filename="C:/Users/hoond/CLionProjects/cpp_practice/021_9498_score/main.h">
 			<Option target="score"/>
 		</Unit>
+		<Unit filename="C:/Users/hoond/CLionProjects/cpp_practice/022_10817_three_numbers/main.cpp">
+			<Option target="score"/>
+		</Unit>
+		<Unit filename="C:/Users/hoond/CLionProjects/cpp_practice/022_10817_three_numbers/main.h">
+			<Option target="score"/>
+		</Unit>
 		<Unit filename="C:/Users/hoond/CLionProjects/cpp_practice/021_9498_score/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/score.dir/C_/Users/hoond/CLionProjects/cpp_practice/022_10817_three_numbers/main.cpp.obj"
   "CMakeFiles/score.dir/main.cpp.obj"
   "score.exe"
   "score.exe.manifest"
