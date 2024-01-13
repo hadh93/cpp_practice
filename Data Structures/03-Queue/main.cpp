@@ -21,6 +21,7 @@ public:
     void enqueue(int value);
     void dequeue();
     void print() const;
+    ~myQueue();
 };
 
 void myQueue::enqueue(int value) {
@@ -55,6 +56,15 @@ void myQueue::print() const {
     cout << endl;
 }
 
+myQueue::~myQueue() {
+    while (head){
+        Node* temp = head;
+        head = head->next;
+        delete temp;
+    }
+    tail = nullptr;
+}
+
 
 int main(){
     myQueue myQueue;
@@ -66,5 +76,6 @@ int main(){
     myQueue.print();
     myQueue.dequeue();
     myQueue.print();
+    myQueue.~myQueue();
     return 0;
 }
