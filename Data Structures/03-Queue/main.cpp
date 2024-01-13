@@ -67,15 +67,27 @@ myQueue::~myQueue() {
 
 
 int main(){
-    myQueue myQueue;
-    myQueue.enqueue(1);
-    myQueue.enqueue(2);
-    myQueue.enqueue(3);
-    myQueue.enqueue(4);
-    myQueue.enqueue(5);
-    myQueue.print();
-    myQueue.dequeue();
-    myQueue.print();
-    myQueue.~myQueue();
+    myQueue mq;
+    int inp;
+    while(1){
+        cout << "Type a number. 1. enqueue / 2. dequeue / 3. end" << endl;
+        cin >> inp;
+        switch(inp){
+            case 1:
+                cout << "Data to enqueue:";
+                cin >> inp;
+                mq.enqueue(inp);
+                mq.print();
+                break;
+            case 2:
+                mq.dequeue();
+                mq.print();
+                break;
+            case 3:
+                return 0;
+            default:
+                cout << "Invalid input." << endl;
+        }
+    }
     return 0;
 }
