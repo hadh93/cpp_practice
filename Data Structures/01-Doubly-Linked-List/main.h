@@ -2,8 +2,8 @@
 // Created by hoond on 2024-01-04.
 //
 
-#ifndef SINGLY_LINKED_LIST_MAIN_H
-#define SINGLY_LINKED_LIST_MAIN_H
+#ifndef DOUBLY_LINKED_LIST_MAIN_H
+#define DOUBLY_LINKED_LIST_MAIN_H
 
 
 class main {
@@ -11,4 +11,4 @@ class main {
 };
 
 
-#endif //SINGLY_LINKED_LIST_MAIN_H
+#endif //DOUBLY_LINKED_LIST_MAIN_H
