@@ -39,6 +39,20 @@ public:
         }
         cout << endl;
     }
+
+    int find(int value){
+        Node* current = head;
+        int index = 0;
+        while (current){
+            if (current->data == value){
+                return index;
+            }
+            current = current->next;
+            index++;
+        }
+        return -1;
+    }
+
     ~DoublyLinkedList(){
         Node* current = head;
         while (current){
@@ -56,11 +70,31 @@ public:
 
 int main(){
     DoublyLinkedList myList;
-    myList.append(1);
-    myList.append(2);
-    myList.append(3);
-    myList.append(4);
-    cout << "Doubly Linked List:";
-    myList.display();
+    int inp;
+    while(1){
+        cout << "Type a number. 1. append / 2. find / 3. display / 4.end" << endl;
+        cin >> inp;
+        switch(inp){
+            case 1:
+                cout << "Data to append:";
+                cin >> inp;
+                myList.append(inp);
+                myList.display();
+                break;
+            case 2:
+                cout << "Data to find:";
+                cin >> inp;
+                cout << myList.find(inp) << endl;
+                myList.display();
+                break;
+            case 3:
+                myList.display();
+                break;
+            case 4:
+                return 0;
+            default:
+                cout << "Invalid input." << endl;
+        }
+    }
     return 0;
 }
