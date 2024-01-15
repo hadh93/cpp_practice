@@ -50,13 +50,48 @@ public:
         return -1;
     }
 
+    void deleteNode(int value) {
+        Node *current = head;
+        Node *prev;
+
+        if (find(value) == -1){
+            return;
+        }
+
+        if (head->data == value) {
+            if (head->next) {
+                Node *temp = head;
+                head = head->next;
+                delete temp;
+            } else {
+                Node *temp = head;
+                head = tail = nullptr;
+            }
+            return;
+        }
+        prev = current;
+        current = current->next;
+        while (current) {
+            if (current->data == value) {
+                Node *temp = current;
+                prev->next = current->next;
+                delete temp;
+                if (current == tail) {
+                    tail = prev;
+                }
+                return;
+            }
+            prev = prev->next;
+            current = current->next;
+        }
+    }
 };
 
 int main(){
     SinglyLinkedList myList;
     int inp;
     while(1){
-        cout << "Type a number. 1. append / 2. find / 3. display / 4.end" << endl;
+        cout << "Type a number. 1. append / 2. find / 3. delete / 4. display / 5. end" << endl;
         cin >> inp;
         switch(inp){
             case 1:
@@ -72,9 +107,15 @@ int main(){
                 myList.display();
                 break;
             case 3:
+                cout << "Data to delete:";
+                cin >> inp;
+                myList.deleteNode(inp);
                 myList.display();
                 break;
             case 4:
+                myList.display();
+                break;
+            case 5:
                 return 0;
             default:
                 cout << "Invalid input." << endl;
