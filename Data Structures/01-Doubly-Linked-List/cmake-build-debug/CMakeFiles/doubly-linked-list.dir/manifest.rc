@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/Users/hoond/CLionProjects/cpp_practice_2/Data Structures/01-Doubly-Linked-List/cmake-build-debug/CMakeFiles/doubly-linked-list.dir/embed.manifest"

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/hoond/CLionProjects/cpp_practice_2/Data Structures/02-Stack/main.cpp
+main.h
+C:/Users/hoond/CLionProjects/cpp_practice_2/Data Structures/02-Stack/main.h
+iostream
+-
+
+C:/Users/hoond/CLionProjects/cpp_practice_2/Data Structures/02-Stack/main.h
+
